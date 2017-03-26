@@ -1,0 +1,22 @@
+{
+  "name": "ishtar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilau2328/Ishtar.git"
+  },
+  "author": "tilau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tilau2328/Ishtar/issues"
+  },
+  "homepage": "https://github.com/tilau2328/Ishtar#readme"
+}
