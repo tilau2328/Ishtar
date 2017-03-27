@@ -13,7 +13,7 @@ Hapi-GraphQL server to handle data access.
 Hapi server to handle file management and access.
 
 ### Database
-![Database Schema](https://github.com/tilau2328/Ishta/blob/master/docs/images/Database.png)
+![Database Schema](https://github.com/tilau2328/Ishtar/blob/master/docs/images/Database.png)
 
 ## Protocols
 
@@ -22,7 +22,7 @@ User has to signIn or signUp to get an access token before accessing any other
 system's server.
 
 ### Secure Upload
-![UploadFileProtocol](https://github.com/tilau2328/Ishta/blob/master/docs/images/UploadFile.png)
+![UploadFileProtocol](https://github.com/tilau2328/Ishtar/blob/master/docs/images/UploadFile.png)
  - 1 - createFile(name, publicPath, userToken)
  - 2 - createFile(name, publicPath)
  - 3 - returns uploadToken with file id and user id hashed into a jwt
