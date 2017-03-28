@@ -43,3 +43,11 @@ served from webpack dev server and composed by:
   - Reducers
   - Middlewares
   - GraphQL
+
+```javascript
+  async.parallel([
+     (callback) => { require('./auth').run(); }
+  ], function(err, results) {
+     // log error
+  });
+```

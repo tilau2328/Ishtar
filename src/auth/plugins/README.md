@@ -1,1 +1,3 @@
 # Authentication Server Plugins
+
+ - JWT
