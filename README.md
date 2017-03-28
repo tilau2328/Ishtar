@@ -4,7 +4,7 @@
 ![Project Architecture](https://github.com/tilau2328/Ishtar/blob/master/docs/images/Architecture.png)
 
 ### Authentication
-Hapi server to handle authentication operations, such as signIn and signUp. 
+Hapi server to handle authentication operations, such as signIn and signUp.
 
 ### Data
 Hapi-GraphQL server to handle data access.
@@ -15,9 +15,9 @@ Hapi server to handle file management and access.
 ### Database
 ![Database Schema](https://github.com/tilau2328/Ishtar/blob/master/docs/images/Database.png)
 
- - User
- - File
- - Vote
+ - User - Entity to store users' information, relations and close coupled methods.
+ - File - Entity to store files' information and relations
+ - Vote - Entity to store votes' information
 
 ## Protocols
 

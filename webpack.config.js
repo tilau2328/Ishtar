@@ -1,18 +1,19 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var SRC_DIR = path.resolve(__dirname, 'src');
-var CLIENT_DIR = path.resolve(SRC_DIR, 'client');
-var APP_DIR = path.resolve(CLIENT_DIR, 'app');
+var { SRC_PATH } = require('./config');
+
+var CLIENT_PATH = path.resolve(SRC_PATH, 'client');
+var APP_PATH = path.resolve(CLIENT_PATH, 'app');
 var HOST = process.env.IP + ':' + process.env.PORT;
 
 var config = {
-    entry: APP_DIR + '/index.js',
+    entry: APP_PATH + '/index.js',
     resolve: {
         extensions: ['.js', '.jsx', '.json']
     },
     output: {
-        path: CLIENT_DIR,
+        path: CLIENT_PATH,
         filename: 'bundle.js'
     },
     module : {
@@ -21,7 +22,7 @@ var config = {
               loader: 'json-loader'
             }, {
                 test: /\.jsx$|\.js$/,
-                include: APP_DIR,
+                include: APP_PATH,
                 loaders: ['babel-loader']//, "eslint-loader"
             }, {
               test: /\.(graphql|gql)$/,
@@ -31,7 +32,7 @@ var config = {
     },
     devServer: {
       historyApiFallback: true,
-      contentBase: CLIENT_DIR
+      contentBase: CLIENT_PATH
     }
 };
 
