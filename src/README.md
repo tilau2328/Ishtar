@@ -35,4 +35,11 @@ Hapi server composed by:
 
 ## Browser Client
 React Redux application with GraphQL client, jwt authentication,
-served from webpack dev server.
+served from webpack dev server and composed by:
+  - App
+  - Routes
+  - Pages
+  - Actions
+  - Reducers
+  - Middlewares
+  - GraphQL
