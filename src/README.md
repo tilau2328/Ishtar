@@ -1,6 +1,6 @@
 # Source Files
 Parallel execution of servers and client webpack dev server with
-![AsyncJS](http://caolan.github.io/async/)
+[AsyncJS](http://caolan.github.io/async/)
 
 ## Authentication
 Hapi server composed by:
